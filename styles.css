@@ -1,0 +1,68 @@
+div{
+    display: inline;
+}
+
+div.piano{
+    font-size: 0;
+    background-color: grey;
+}
+
+.white-keys{
+    border: 1px solid black;
+    background-color: white;
+    padding: 100px 16px;
+    width: 30px;
+    border-radius: 3px;
+    max-width: 6.25%;
+}
+
+.black-keys{
+    background-color: black;
+    border: 2px solid black;
+    padding: 99px 10px 10px 10px;
+    z-index: 2;
+    margin-left: -14px;
+    margin-right: -10px;
+    position: relative;
+    border-radius: 3px;
+}
+
+div.last{
+margin-right: 0;
+padding-right: 0;
+}
+
+.piano1{
+    margin: 100px;
+    text-align: center;
+}
+
+h1{
+    display: inline-block;
+    text-align: center;
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+    border: 3px solid #8f8c8c;
+}
+
+div.black-keys:active{
+    background-color: #3d3c3c;
+    position: relative;
+    top: 1px;
+}
+
+div.white-keys:active{
+    background-color: #3d3c3c;
+    position: relative;
+    top: 2px;
+    border-radius: 3px;
+}
+
+.black-keys:hover{
+    background-color: #aaa9a9;
+}
+
+.white-keys:hover{
+    background-color: rgb(192, 189, 189);
+}
